@@ -1,0 +1,23 @@
+[{
+    "currently_learning":"Upgrading my Python and Django skills, also learning GraphQL(Django implementation)",
+    "skills":[
+        {
+            "category_name":"programmer_skills",
+            "set":[
+                {"skill":"JavaScript", "grade":"90%"},
+                {"skill":"React", "grade":"90%"}
+
+            ]
+        },
+        {
+            "category_name":"human_languages",
+            "set":[
+                {"skill":"Russian", "grade":"native"},
+                {"skill":"Serbian", "grade":"native"},
+                {"skill":"English", "grade":"fluent"},
+                {"skill":"Spanish", "grade":"noob"}
+            ]
+        }
+
+    ]
+}]
