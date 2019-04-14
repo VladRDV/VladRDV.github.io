@@ -16,7 +16,8 @@ export const blog_style = StyleSheet.create({
         alignItems:'stretch',
         justifyContent: 'center',
         paddingTop:'70px',
-        height: '100vh',
+        minHeight: '100vh',
+        height: 'auto',
         width: '100%',
         background: black,
         // overflow: 'hidden',
@@ -25,17 +26,20 @@ export const blog_style = StyleSheet.create({
         width: '60%',
         display: 'grid',
         // flex: 1,
+        // justifyItems: 'center',
         gridTemplateColumns:'repeat(3, minmax( 33%, 220px))',
-        gridTemplateRows:'repeat(3, minmax(220px, 220px))',
+        gridAutoRows:'minmax(220px, 220px)',
         gridGap:'4px',
-
+        justifyContent:'space-evenly',
         // padding: '0 5px',
-        // '@media screen and (max-width: 992px)':{
-        //     maxWidth:'80%',
-        // },
-        // '@media screen and (max-width: 576px)':{
-        //     maxWidth:'100%',
-        // },
+        '@media screen and (max-width: 900px)':{
+            width: '90%',
+            gridTemplateColumns:'repeat(2, minmax( 50%, 220px))',
+        },
+        '@media screen and (max-width: 480px)':{
+            width: '94%',
+            gridTemplateColumns: '100%',
+        },
     },
     blogLink:{
         display:'inline-flex',
@@ -94,7 +98,7 @@ export const blog_style = StyleSheet.create({
         right: 0,
         height:'100%',
         zIndex: 500,
-        width: '33.3%',
+        width: '30%',
         background: 'linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)'
     },
     titleGrad:{

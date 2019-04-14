@@ -7,7 +7,7 @@ import Tag from '../components/Tag/Tag';
 export default ({ location, data }) => {
 	return (
 		<Root location={location}>
-			<main className={`${css(bs.main)}`} style={{backgroundColor:'red'}}>
+			<main className={`${css(bs.main)}`}>
 				<div className={`${css(bs.container)}`}>
 					{renderBlogLinks(data)}
 				</div>

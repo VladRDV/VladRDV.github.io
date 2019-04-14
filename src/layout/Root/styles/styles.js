@@ -7,7 +7,7 @@ export const root_layout_styles = StyleSheet.create({
         dispaly: 'flex',
         flexGrow: 1,
         flexDirection: 'column',
-        minHeight: '100vh',
+        height: '100vh',
         minWidth: '100vw',
         position:'relative',
         zIndex: 0,

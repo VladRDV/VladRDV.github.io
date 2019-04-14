@@ -1,6 +1,6 @@
-export const std_bg = '#00070b';
-export const white = '#fff';
 export const black = '#000';
+export const std_bg = black;
+export const white = '#fff';
 export const primary = '#1565c0';
 export const danger = '#d32f2f';
 export const success = '#308732';
