@@ -4,7 +4,8 @@ import {
     white,
     trns,
     // danger,
-    // black,
+    black,
+    read_back,
 } from '../colors/colors';
 export const archive_style = StyleSheet.create({
     main:{
@@ -13,61 +14,48 @@ export const archive_style = StyleSheet.create({
         alignItems:'stretch',
         justifyContent: 'center',
         paddingTop:'70px',
-        height: '100vh',
+        minHeight: '100vh',
+        height: 'auto',
         width: '100%',
-        background: trns,
+        background: black,
         // overflow: 'hidden',
+        // marginBottom:'50px',
     },
     container:{
-        maxWidth: '65%',
-        flex: 1,
-        // backgroundColor:'blue',
-        padding: '0 5px',
-        '@media screen and (max-width: 992px)':{
-            maxWidth:'80%',
+        width: '60%',
+        backgroundColor:'red',
+        display: 'grid',
+        // flex: 1,
+        // justifyItems: 'center',
+        gridTemplateColumns:'repeat(3, minmax( 33%, 220px))',
+        // gridAutoRows:'minmax(220px, auto-fit)',
+        gridTemplateRows: 'repeat( auto-fit, 220px)',
+        gridGap:'4px',
+        justifyContent:'space-evenly',
+        // padding: '0 5px',
+        '@media screen and (max-width: 900px)':{
+            width: '90%',
+            gridTemplateColumns:'repeat(2, minmax( 50%, 220px))',
         },
-        '@media screen and (max-width: 576px)':{
-            maxWidth:'100%',
+        '@media screen and (max-width: 480px)':{
+            width: '94%',
+            gridTemplateColumns: '100%',
+        },  
+    },
+        skills:{
+            gridColumn: '1/4',
+            gridRow: '2/3',
+            backgroundColor:'orange',
         },
-    },
-    cards:{
-        // backgroundColor:'orange',
-        display:'grid',
-        gridTemplateColumns: 'repeat(3, minmax(300px, 1fr))',
-        gridTemplateRows: 'auto-fit repeat(6, 155px)',
-        gridGap: '8px',
-        height:'auto',
-        maxHeight:'calc(100vh - 70px)',
-        maxWidth:'100%',
-        // overflowY:'auto',
-        '@media screen and (max-width: 576px)':{
-            gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-        }
-    },
-    card:{
-        display:'flex',
-        color: white,
-        textDecoration:'none',
-        fontSize:'2rem',
-        justifyContent: 'center',
-        alignItems:'center',
-        padding: '10px',
-        textAlign:'center',
-        backgroundColor: 'rgba(0,0,0,.7)',
-        border: `1px solid ${white}`,
-        transition: '.4s background-color ease-in',
-        ":hover":{
-            backgroundColor: 'rgba(21, 101, 192, .7)',
-        }
-        // opacity: 0.8,
-    },
-    // bg_websites:{
-    //     backgroundImage: 'url(../../static/img/project_categories/websites.jpg) no-repeat cover',
-    // },
-    skills:{
-        height:'auto',
-        minWidth:'100%',
-        marginTop: '1rem',
-        backgroundColor:'indigo',
-    },
+        currently_learning:{
+            gridColumn: '1/4',
+            gridRow: '1/2',
+            backgroundColor:'blue',
+        },
+        projects:{
+            flex: 1,
+            gridColumn: '1/4',
+            gridRow: '3/span',
+            backgroundColor:'indigo',
+        },
 });

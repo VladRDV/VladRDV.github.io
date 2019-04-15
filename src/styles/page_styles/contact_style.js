@@ -21,7 +21,7 @@ export const contact_style = StyleSheet.create({
         width: '100%',
         background: black,
         // overflow: 'hidden',
-        marginBottom:'50px',
+        // marginBottom:'50px',
     },
     container:{
         width: '60%',
@@ -51,12 +51,12 @@ export const contact_style = StyleSheet.create({
         transition: '.8s ease-in-out',
         textDecoration:'none',
         ':hover':{
-            backgroundColor: white,
+            backgroundColor: read_back,
             color: black,
         },
     },
     border:{
-        border:`solid 2px ${white}`
+        border:`solid 2px ${read_back}`
     },
     emails:{
         flexDirection:'column',
@@ -84,8 +84,9 @@ export const contact_style = StyleSheet.create({
         transition: '.8s ease-in-out',
         textDecoration:'none',
         ':hover':{
-            backgroundColor: white,
-            color: black,
+            // backgroundColor: read_back,
+            // color: black,
+            fontSize:'2.1rem',
         },
         '@media screen and (max-width: 900px)':{
             justifyContent:'center',
