@@ -60,6 +60,10 @@ body {
 ul {
 	list-style: none;
 }
+/* 
+#projects::-webkit-scrollbar { width: 0 !important }
+#projects { -ms-overflow-style: none  !important; }
+#projects { overflow: -moz-scrollbars-none  !important; } */
 
 /* blockquote, q {
 	quotes: none;

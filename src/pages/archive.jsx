@@ -17,21 +17,21 @@ export default ({ location }) => {
 				<div className={`${css(ast.skills, ast.border)}`}>
 					<h3 className={`${css(ast.part_title)}`}>My Skills</h3>
 					<ul className={`${css(ast.skills_list)}`}>
-						<li className={`${css(ast.skill)}`}>React</li>
+					<li className={`${css(ast.skill)}`}>React</li>
 						<li className={`${css(ast.skill)}`}>JavaScript</li>
 						<li className={`${css(ast.skill)}`}>Python</li>
 						<li className={`${css(ast.skill)}`}>Python</li>
 					</ul>
 				</div>
-				<div className={`${css(ast.projects, ast.border)}`}>
-					<div className={`${css(ast.project, ast.border)}`}>001</div>
-					<div className={`${css(ast.project, ast.border)}`}>002</div>
-					<div className={`${css(ast.project, ast.border)}`}>003</div>
-					<div className={`${css(ast.project, ast.border)}`}>004</div>
-					<div className={`${css(ast.project, ast.border)}`}>004</div>
-					<div className={`${css(ast.project, ast.border)}`}>004</div>
-					<div className={`${css(ast.project, ast.border)}`}>004</div>
-					<div className={`${css(ast.project, ast.border)}`}>004</div>
+				<div className={`${css(ast.projectsContainer, ast.border)}`}>
+					<h3 className={`${css(ast.projectsTitle, ast.part_title)}`}>Projects</h3>
+					<ul className={`${css(ast.projects)}`}>
+						<li className={`${css(ast.project)}`}>Poslonaut website</li>
+						<li className={`${css(ast.project)}`}>Poslonaut mobile app</li>
+						<li className={`${css(ast.project)}`}>Poslonaut kiosk</li>
+						<li className={`${css(ast.project)}`}>Poslonaut old website</li>
+						<li className={`${css(ast.project)}`}>Poslonaut old website</li>
+					</ul>
 				</div>
             </div>
         </main>
