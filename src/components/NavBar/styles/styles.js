@@ -50,7 +50,7 @@ export const navbar_styles = StyleSheet.create({
         textDecoration: 'none',
         color: white,
         borderColor: trns,
-        transition: '.8s',
+        transition: '.8s ease-in-out all',
         ":hover":{
             borderColor: white,
         }
@@ -118,11 +118,12 @@ export const navbar_styles = StyleSheet.create({
         // marginTop: '15px',
         alignSelf: 'center',
         borderRadius: '50px',
+        border: `1px solid ${black}`,
         minWidth: '95px',
         justifyContent:'center',
         alignItems: 'center',
-        height: '20px',
-        width: '20%',
+        height: '22px',
+        width: '21%',
     },
     btn_danger:{
         ":hover":{

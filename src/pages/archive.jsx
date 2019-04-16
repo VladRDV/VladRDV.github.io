@@ -6,290 +6,33 @@ import { archive_style as ast } from '../styles/page_styles/archive_style'
 export default ({ location }) => {
   return (
     <Root location={location}>
-        <main className={`${css(ast.main)}`}> 
+        <main className={`${css(ast.main)} normal_font`}> 
 			<div className={`${css(ast.container)}`}>
-				<p className={`${css(ast.currently_learning)}`}>dsds</p>
-				<div className={`${css(ast.skills)}`}>gdhgf</div>
-				<div className={`${css(ast.projects)}`}>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amerem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis qui laboriosam vitae ut odit quae voluptatum nulla, dolores fugit, officia harum modi optio quos, illo commodi eligendi distinctio dicta quo.
-				
+				<div className={`${css(ast.currently_learning, ast.border)}`}>
+					<h3 className={`${css(ast.part_title)}`}>Currently learning</h3>
+					<p>
+						Upgrading my Django/Python skills. Learning Django Channels
+					</p>
 				</div>
-				{/*
-				<div className={`${css(ast.skills)}`}>
-				<h4>Things I am learning right now</h4>
-				<ul>
-				<li>01</li>
-				<li>02</li>
-				</ul>
+				<div className={`${css(ast.skills, ast.border)}`}>
+					<h3 className={`${css(ast.part_title)}`}>My Skills</h3>
+					<ul className={`${css(ast.skills_list)}`}>
+						<li className={`${css(ast.skill)}`}>React</li>
+						<li className={`${css(ast.skill)}`}>JavaScript</li>
+						<li className={`${css(ast.skill)}`}>Python</li>
+						<li className={`${css(ast.skill)}`}>Python</li>
+					</ul>
 				</div>
-				<div className={`${css(ast.skills)}`}>My skill-bars</div> */}
+				<div className={`${css(ast.projects, ast.border)}`}>
+					<div className={`${css(ast.project, ast.border)}`}>001</div>
+					<div className={`${css(ast.project, ast.border)}`}>002</div>
+					<div className={`${css(ast.project, ast.border)}`}>003</div>
+					<div className={`${css(ast.project, ast.border)}`}>004</div>
+					<div className={`${css(ast.project, ast.border)}`}>004</div>
+					<div className={`${css(ast.project, ast.border)}`}>004</div>
+					<div className={`${css(ast.project, ast.border)}`}>004</div>
+					<div className={`${css(ast.project, ast.border)}`}>004</div>
+				</div>
             </div>
         </main>
     </Root>

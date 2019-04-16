@@ -48,11 +48,12 @@ export const contact_style = StyleSheet.create({
         alignItems:'center',
         fontSize:'2.2rem',
         color: white,
-        transition: '.8s ease-in-out',
+        transition: 'none',
         textDecoration:'none',
         ':hover':{
             backgroundColor: read_back,
             color: black,
+            transition: '.8s ease-in all',
         },
     },
     border:{
@@ -73,6 +74,7 @@ export const contact_style = StyleSheet.create({
         },
     },
     email:{
+        transition: 'none',
         display:'flex',
         height: '50%',
         justifyContent:'flex-end',
@@ -81,12 +83,12 @@ export const contact_style = StyleSheet.create({
         alignItems:'center',
         fontSize:'2rem',
         color: white,
-        transition: '.8s ease-in-out',
         textDecoration:'none',
         ':hover':{
-            // backgroundColor: read_back,
-            // color: black,
-            fontSize:'2.1rem',
+            backgroundColor: read_back,
+            color: black,
+            transition: '.8s ease-in all',
+            // fontSize:'2.1rem',
         },
         '@media screen and (max-width: 900px)':{
             justifyContent:'center',

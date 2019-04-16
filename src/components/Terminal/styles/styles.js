@@ -15,7 +15,7 @@ export const terminal_styles = StyleSheet.create({
         maxWidth:'600px',
         maxHeight:'300px',
         position:'fixed',
-        transition:'1.8s',
+        transition:'1.8s linear all',
         bottom: 0,
         zIndex: 5,
         "@media screen and (max-width: 600px)":{

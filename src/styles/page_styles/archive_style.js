@@ -23,39 +23,61 @@ export const archive_style = StyleSheet.create({
     },
     container:{
         width: '60%',
-        backgroundColor:'red',
         display: 'grid',
+        color: white,
         // flex: 1,
         // justifyItems: 'center',
-        gridTemplateColumns:'repeat(3, minmax( 33%, 220px))',
+        gridTemplateColumns:'1fr',
         // gridAutoRows:'minmax(220px, auto-fit)',
-        gridTemplateRows: 'repeat( auto-fit, 220px)',
-        gridGap:'4px',
+        gridTemplateRows: 'repeat( auto-fit, auto)',
+        gridGap:'15px',
         justifyContent:'space-evenly',
-        // padding: '0 5px',
+        alignItems:'stretch',
+        // padding: '1%',
         '@media screen and (max-width: 900px)':{
             width: '90%',
-            gridTemplateColumns:'repeat(2, minmax( 50%, 220px))',
         },
         '@media screen and (max-width: 480px)':{
             width: '94%',
-            gridTemplateColumns: '100%',
         },  
     },
-        skills:{
-            gridColumn: '1/4',
-            gridRow: '2/3',
-            backgroundColor:'orange',
+    currently_learning:{
+        gridRow:1,
+        flexDirection:'column',
+        alignItems:'stretch',
+        justifyContent:'space-around',
+        padding: '10px',
+    },
+    border:{
+        backgroundColor: black,
+        border:`1px solid ${white}`,
+    },
+    part_title:{
+        marginBottom:'10px',
+    },
+    projects:{
+        gridRow: '3',
+        // justifyContent: 'space-evenly',
+        // alignItems:'stretch',
+        display:'grid',
+        padding:'10px',
+        gridGap: '8px',
+        gridTemplateColumns:'1fr 1fr 1fr',
+        height: 'auto',
+        // gridAutoRows:'minmax(220px, auto-fit)',
+        gridTemplateRows: 'repeat( auto-fit,  120px)',
+        '@media screen and (max-width: 900px)':{
+            gridTemplateColumns:'1fr 1fr',
         },
-        currently_learning:{
-            gridColumn: '1/4',
-            gridRow: '1/2',
-            backgroundColor:'blue',
-        },
-        projects:{
-            flex: 1,
-            gridColumn: '1/4',
-            gridRow: '3/span',
-            backgroundColor:'indigo',
-        },
+        '@media screen and (max-width: 480px)':{
+            gridTemplateColumns: '1fr',
+        },  
+    },
+    skills:{
+        padding: '10px',
+        gridRow: '2',
+    },
+    skill:{
+        // minHeight:'120px',
+    },
 });
