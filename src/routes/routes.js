@@ -3,6 +3,6 @@ const Routes = {
     blog: '/blog',
     about: '/about',
     contact: '/contact',
-    portfolio: '/archive'
+    portfolio: '/portfolio'
 };
 export default Routes;

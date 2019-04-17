@@ -47,7 +47,7 @@ class Navigation extends Component {
       <Fragment>
         <nav className={`${this.defineNavStyles()}`}>
           <Link to={Routes.home} className={`normal_font ${css(...home)}`}>Home</Link>
-          <Link to={Routes.portfolio} className={`normal_font ${css(...portfolio)}`}>Archive</Link>
+          <Link to={Routes.portfolio} className={`normal_font ${css(...portfolio)}`}>Portfolio</Link>
           <Link to={Routes.blog} className={`normal_font ${css(...blog)}`}>Blog</Link>
           <Link to={Routes.about} className={`normal_font ${css(...about)}`}>About</Link>
           <Link to={Routes.contact} className={`normal_font ${css(...contact)}`}>Contact</Link>
@@ -55,7 +55,7 @@ class Navigation extends Component {
         <nav className={`${this.defineMobileNavStyles()}`}>
           <div className={`${this.defineMenuStyles()}`}>
             <Link to={Routes.home} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Home</Link>
-            <Link to={Routes.portfolio} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Archive</Link>
+            <Link to={Routes.portfolio} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Portfolio</Link>
             <Link to={Routes.blog} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Blog</Link>
             <Link to={Routes.about} className={`normal_font ${css(ns.mobileMenuBtn)}`}>About</Link>
             <Link to={Routes.contact} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Contact</Link>

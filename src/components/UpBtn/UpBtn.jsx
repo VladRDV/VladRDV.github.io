@@ -23,7 +23,7 @@ class UpBtn extends Component {
             </button>
         );
         switch(this.props.location.pathname){
-            case '/archive': return btn;
+            case '/portfolio': return btn;
             default: return null;
         }
     }

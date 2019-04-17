@@ -7,7 +7,7 @@ import {
     black,
     read_back,
 } from '../colors/colors';
-export const archive_style = StyleSheet.create({
+export const portfolio_style = StyleSheet.create({
     main:{
         alignSelf: 'stretch',
         flexDirection:'row',
