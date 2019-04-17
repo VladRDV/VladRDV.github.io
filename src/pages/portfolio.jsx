@@ -34,11 +34,32 @@ const oth_str = `Other contributors: `;
 								</p>
 								<p className="other_contributors">
 									{oth_str}
-									<a href="#" target="_blank">Milan Šarić</a>,
-									<a href="#" target="_blank">Pavle Popović</a>
+									<a
+										href="#"
+										className="contributor"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Milan Šarić
+									</a>,
+									<a 
+										href="#" 
+										className="contributor" 
+										target="_blank" 
+										rel="noopener noreferrer"
+									>
+										Pavle Popović
+									</a>
 								</p>
 								<div className="bottom">
-									<a href="#" target="_blank">{`Visit >>`}</a>
+									<a
+										href="#"
+										className="to_project"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{`Visit >>`}
+									</a>
 								</div>
 							</li>
 							{/* <li className={`${css(pst.project)}`}>Poslonaut mobile app</li>
