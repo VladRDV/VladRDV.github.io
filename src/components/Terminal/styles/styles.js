@@ -15,7 +15,7 @@ export const terminal_styles = StyleSheet.create({
         maxWidth:'600px',
         maxHeight:'300px',
         position:'fixed',
-        transition:'1.8s linear all',
+        // transition:'1.8s linear all',
         bottom: 0,
         zIndex: 5,
         "@media screen and (max-width: 600px)":{
@@ -24,10 +24,12 @@ export const terminal_styles = StyleSheet.create({
         }
     },
     terminal_open:{
+        // transition:'1.8s linear all',
         right: 0,
     },
     terminal_close:{
         right: '-200vh',
+        transition:'1.8s linear all',
         opacity: 0,
         opinterEvents: 'none',
     },

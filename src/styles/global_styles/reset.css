@@ -61,9 +61,13 @@ ul {
 	list-style: none;
 }
 /* 
-#projects::-webkit-scrollbar { width: 0 !important }
-#projects { -ms-overflow-style: none  !important; }
-#projects { overflow: -moz-scrollbars-none  !important; } */
+ul#skills_list::-webkit-scrollbar{
+	width: 0px !important;
+	background: transparent !important;
+	display: none !important;
+}
+ul#skills_list { -ms-overflow-style: none  !important; }
+ul#skills_list { overflow: -moz-scrollbars-none  !important; } */
 
 /* blockquote, q {
 	quotes: none;

@@ -20,7 +20,8 @@ export const index_style = StyleSheet.create({
         textAlign: 'center',
         padding: '12px 0',
         fontSize: '3.8rem',
-        wordWrap: 'break-word',
+        // wordWrap: 'break-word',
+        whiteSpace:'pre-wrap',
         lineHeight: '1.5em',
         marginBottom: '20px',
         '@media screen and (max-width: 768px)':{

@@ -55,9 +55,11 @@ export const portfolio_style = StyleSheet.create({
     },
     part_title:{
         marginBottom:'10px',
+        minHeight:'19px',
     },
     projectsContainer:{
         // gridRow: '3/7',
+        // height:'580px',
         gridRow: '3/8',
         gridColumn: '1/5',
         padding:'10px',
@@ -85,22 +87,44 @@ export const portfolio_style = StyleSheet.create({
             gridTemplateColumns:'1fr',
         }
     },
-    project:{
-        minHeight:'220px',
-        color: black,
-        padding:'10px',
-        backgroundColor: white,
+    upperTxtFormat:{
+        whiteSpace:'pre-wrap', 
+        lineHeight:'1.4em', 
+        fontSize:'.9rem'
     },
     skills:{
         gridRow:'1/3',
         gridColumn: '3/5',
         padding: '10px',
+        position:'relative',
+        overflow:'hidden',
         '@media screen and (max-width: 600px)':{
+            minHeight:'90px',
             gridColumn: '1/5',
             gridRow:'3/5',
         }
     },
-    skill:{
-        // minHeight:'120px',
+    skills_list:{
+        width:'100%',
+        height:'auto',
+        paddingBottom:'20px',
+    },
+    scrollBarHider:{
+        position:'absolute',
+        display:'block',
+        overflowY:'auto',
+        overflowX:'hidden',
+        height:'100%',
+        paddingRight:'10px',
+        width:'calc(100% + 12px)',
+    },
+    gradient:{
+        position:'absolute',
+        bottom: 0,
+        left:0,
+        zIndex:'1020',
+        height: '20px',
+        width:'100%',
+        background:'linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.65) 82%,rgba(0,0,0,1) 99%)',
     },
 });
