@@ -16,6 +16,7 @@ export const about_style = StyleSheet.create({
         alignItems:'stretch',
         justifyContent: 'center',
         paddingTop:'70px',
+        textAlign:'left',
         minHeight: '100vh',
         height: 'auto',
         width: '100%',
@@ -24,13 +25,6 @@ export const about_style = StyleSheet.create({
     },
     container:{
         width: '60%',
-        display: 'grid',
-        // flex: 1,
-        // justifyItems: 'center',
-        gridTemplateColumns:'repeat(3, minmax( 33%, 220px))',
-        gridAutoRows:'minmax(220px, 220px)',
-        gridGap:'4px',
-        justifyContent:'space-evenly',
         // padding: '0 5px',
         '@media screen and (max-width: 900px)':{
             width: '90%',

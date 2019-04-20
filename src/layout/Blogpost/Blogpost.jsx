@@ -11,6 +11,11 @@ const Blogpost = ({ location, data }) => {
             <main className={`${css(bps.main)} normal_font`}>
                 <div className={`${css(bps.container)} gen_blogpost`}>
                     <h1 className={`${css(bps.blogpost_title)}`}>{post.frontmatter.title}</h1>
+                    <div 
+                        style={{margin:'15px 10%',display:'flex',minHeight:'20px',flexWrap:'wrap',alignSelf:'flex-start',flexDirection:'row',width:'80%', maxWidth:'80%',justifyContent:'space-between'}}
+                    >
+                        {renderTags(post.frontmatter.tags)}
+                    </div>
                     <article 
                         style={{
                             height:'auto',
@@ -24,11 +29,6 @@ const Blogpost = ({ location, data }) => {
                         }} 
                         dangerouslySetInnerHTML={{ __html: post.html }} 
                     />
-                    <div 
-                        style={{margin:'15px 10%',display:'flex',minHeight:'20px',flexWrap:'wrap',alignSelf:'flex-start',flexDirection:'row',width:'80%', maxWidth:'80%',justifyContent:'flex-start'}}
-                    >
-                        {renderTags(post.frontmatter.tags)}
-                    </div>
                 </div>
             </main>            
         </Root>
