@@ -1,14 +1,59 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { css } from 'aphrodite';
-import { skillbar_styles as sbs } from './styles/styles'
-const SkillBar = ({txt, lvl, color}) => {
-    return (
-        <li className={`${css(sbs.skill)}`}>
-        {txt}
-         <span className={`${css(sbs.triangle1)}`}/>
-       {/* <span className={`${css(sbs.triangle2)}`}/> */}
-        </li>
-    );
+import { skillbar_styles as sbs } from './styles/styles';
+// import { read_back, white } from '../../styles/colors/colors';
+class SkillBar extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            grade: '30%',
+            grade_visible: false,
+        };
+        this.setGrade = this.setGrade.bind(this);
+    }
+    setGrade(){
+        this.setState({grade: '100%', grade_visible: true});
+    }
+    componentDidMount(){
+        const { num } = this.props;
+        setTimeout(() => {
+            this.setGrade();
+        }, 250 * num);
+    }
+    render(){
+        const {txt, lvl, color, num} = this.props;
+        const { grade, grade_visible } = this.state;
+        return (
+            <li className={`${css(sbs.skill)}`}>
+                <span className={`${css(sbs.skill_txt)}`}>{txt}</span>
+                <span 
+                    className={`${css(sbs.skill_txt, sbs.skill_grade)}`}
+                    style={{animationDelay: `${.3 * num}s`}}
+                >
+                    {'100%'}
+                </span>
+                <span className={`${css(sbs.square, sbs.square_offset1)}`}/>
+                <span className={`${css(sbs.square, sbs.square_offset2)}`}/>
+                <span className={`${css(sbs.square, sbs.square_offset3)}`}/>
+                <span className={`${css(sbs.trapezoidBottom)}`}/>
+                <span className={`${css(sbs.trapezoidTop)}`}/>
+                <span className={`${css(sbs.filler)}`} style={{backgroundColor:'indigo',width: grade,}}/>
+
+                
+                {/* <span className={`${css(sbs.triangle2)}`}/> */}
+                {/* <span className={`${css(sbs.triangle1)}`}/> */}
+                {/* <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    className={`${css(...svg)}`}  
+                    version="1.1" 
+                    x="0" y="0" 
+                    viewBox="0 0 800 600" 
+                    preserveAspectRatio="none"
+                    >
+                </svg> */}
+            </li>
+        );
+    }
 }
 
 export default SkillBar;

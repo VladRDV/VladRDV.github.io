@@ -1,6 +1,7 @@
 import React from 'react';
 import { css } from 'aphrodite';
-import { project_styles as ps } from './styles/styles'
+import { project_styles as ps } from './styles/styles';
+
 const Project = ({title, href, desc, contr}) => {
     const oth_str = `Other contributors:`;
     return (

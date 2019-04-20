@@ -22,13 +22,7 @@ export default ({ location }) => {
 						<div className={`${css(pst.scrollBarHider)}`}>
 							<h3 className={`${css(pst.part_title)}`}>My skill list</h3>
 							<ul className={`${css(pst.skills_list, pst.upperTxtFormat)}`}>
-								<SkillBar txt={'Gatsby'}/>
-								<SkillBar txt={'Gatsby'}/>
-								<SkillBar txt={'Gatsby'}/>
-								<SkillBar txt={'Gatsby'}/>
-								<SkillBar txt={'Gatsby'}/>
-								<SkillBar txt={'Gatsby'}/>
-								<SkillBar txt={'Gatsby'}/>
+								{renderSkills()}
 							</ul>
 						</div>
 						<div className={`${css(pst.gradient)}`}/>
@@ -36,120 +30,36 @@ export default ({ location }) => {
 					<div className={`${css(pst.projectsContainer, pst.border)}`}>
 						<h3 className={`${css(pst.projectsTitle, pst.part_title)}`}>Projects I've worked on</h3>
 						<ul className={`${css(pst.projects)}`}>
-							<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-							<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-							<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-							<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-							<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-							<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-								<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-								<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-								<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-								<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-							<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
-							<Project 
-								title={'Poslonaut website'}
-								contr={[
-									{name:'Milan Šarić', href:'#'}, 
-									{name:'Pavle Popović', href:'#'},
-								]}
-								desc={'Job searching website'}
-								href={'#'}
-							/>
+							{renderProjects()}
 						</ul>
 					</div>
 				</div>
 			</main>
 		</Root>
 	)
+}
+const renderSkills = () => {
+	return(
+		Array.from(Array(10).keys()).map((el, ind)=>(
+			<SkillBar key={`SkillBar-${ind}`} num={ind} txt={'Gatsby'}/>
+		))
+	);
+}
+const renderProjects = () => {
+	return(
+		Array.from(Array(9).keys()).map((el, ind)=>(
+			<Project 
+				title={'Poslonaut website'}
+				contr={[
+					{name:'Milan Šarić', href:'#'}, 
+					{name:'Pavle Popović', href:'#'},
+				]}
+				desc={'Job searching website'}
+				href={'#'}
+				key={`Project-${ind}`}
+			/>		
+		))
+	);
 }
 
 // {

@@ -87,7 +87,7 @@ export const blog_style = StyleSheet.create({
         display: 'flex',
         justifyContent:'flex-start',
         position:'relative',
-        height:'20px',
+        height:'21px',
         overflowX: 'hidden',
         flexWrap: 'nowrap',
     },

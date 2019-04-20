@@ -2,10 +2,10 @@ import { StyleSheet } from "aphrodite";
 import { 
     // std_bg,
     white,
-    trns,
+    // trns,
     // danger,
     black,
-    read_back,
+    // read_back,
 } from '../colors/colors';
 export const portfolio_style = StyleSheet.create({
     main:{
@@ -42,6 +42,7 @@ export const portfolio_style = StyleSheet.create({
         gridRow:'1/3',
         gridColumn: '1/3',
         flexDirection:'column',
+        minHeight:'220px',
         alignItems:'stretch',
         justifyContent:'space-around',
         padding: '10px',
@@ -96,10 +97,11 @@ export const portfolio_style = StyleSheet.create({
         gridRow:'1/3',
         gridColumn: '3/5',
         padding: '10px',
+        minHeight:'220px',
         position:'relative',
         overflow:'hidden',
         '@media screen and (max-width: 600px)':{
-            minHeight:'90px',
+            minHeight:'220px',
             gridColumn: '1/5',
             gridRow:'3/5',
         }
@@ -111,12 +113,17 @@ export const portfolio_style = StyleSheet.create({
     },
     scrollBarHider:{
         position:'absolute',
+        bottom: '-10px',
+        left:'10px',
         display:'block',
-        overflowY:'auto',
+        overflowY:'scroll',
         overflowX:'hidden',
         height:'100%',
         paddingRight:'10px',
         width:'calc(100% + 12px)',
+        '@media screen and (max-width: 700px)':{
+            paddingRight:'20px',  
+        }
     },
     gradient:{
         position:'absolute',

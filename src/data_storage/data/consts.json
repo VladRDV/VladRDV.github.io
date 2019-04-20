@@ -4,9 +4,8 @@
         {
             "category_name":"programmer_skills",
             "set":[
-                {"skill":"JavaScript", "grade":"90%"},
+                {"skill":"JavaScript", "grade":"90%", "color":"#ff0"},
                 {"skill":"React", "grade":"90%"}
-
             ]
         },
         {
