@@ -25,7 +25,7 @@ const Blogpost = ({ location, data }) => {
                         dangerouslySetInnerHTML={{ __html: post.html }} 
                     />
                     <div 
-                        style={{margin:'5px 10%',display:'flex',minHeight:'20px',flexWrap:'wrap',alignSelf:'flex-start',flexDirection:'row',width:'80%', maxWidth:'80%',justifyContent:'flex-start'}}
+                        style={{margin:'15px 10%',display:'flex',minHeight:'20px',flexWrap:'wrap',alignSelf:'flex-start',flexDirection:'row',width:'80%', maxWidth:'80%',justifyContent:'flex-start'}}
                     >
                         {renderTags(post.frontmatter.tags)}
                     </div>
