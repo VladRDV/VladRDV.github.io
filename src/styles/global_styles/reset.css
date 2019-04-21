@@ -27,7 +27,7 @@ html, body, #__gatsby, #__gatsby>div {
 	min-height: 100vh !important;
 	overflow: hidden;
 }
-html, body, div, span, img,i, a, iframe, ul, li,
+html, body, div, span, img,i, a, ul, li,
 form, label, article, aside, canvas, embed,
 footer, header, menu, nav, section, 
 time, audio, video {

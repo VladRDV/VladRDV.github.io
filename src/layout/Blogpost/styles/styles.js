@@ -19,7 +19,23 @@ export const blogpost_styles = StyleSheet.create({
         background: black,
         // overflow: 'hidden',
     },
-    blogpost_title:{color: primary, marginBottom:'20px'},
+    blogpost_title:{textAlign:'center',color: primary, marginBottom:'20px'},
+    tags:{
+        margin:'15px 10%',
+        display:'flex',
+        minHeight:'20px',
+        flexWrap:'wrap',
+        alignSelf:'flex-start',
+        flexDirection:'row',
+        width:'80%', 
+        maxWidth:'80%',
+        justifyContent:'space-between',
+        '@media screen and (max-width: 400px)':{
+            width:'99%', 
+            maxWidth:'99%',
+            margin:'15px 1%',
+        },
+    },
     container:{
         width: '60%',
         backgroundColor: black,
@@ -41,4 +57,20 @@ export const blogpost_styles = StyleSheet.create({
             // gridTemplateColumns: '100%',
         },
     },
+    article:{
+        height:'auto',
+        width:'80%',
+        display:'flex',
+        backgroundColor: '#fefefe',
+        color: black,
+        paddingBottom:'20px',
+        flexDirection:'column',
+        alignItems:'center',
+        padding:'1% 3%',
+        '@media screen and (max-width: 600px)':{
+            width: '98%',
+            // gridTemplateColumns: '100%',
+        }, 
+    },
+    
 });

@@ -8,8 +8,8 @@ export default ({ location }) => {
 		<Root location={location}>
 			<main className={`${css(abs.main)} normal_font`}>
 				<div className={`${css(abs.container)}`}>
-					<img style={{width:'25%', minWidth:'300px', border:' 3px solid #fff', borderRadius:'0 50px 0 0 ',margin:'5px', height:'auto', float:'right'}} src={me} alt="Vladimir Radovanovich"/>
-					<p style={{floar: 'left', lineHeight:'1.5em'}}>
+					<img className={`${css(abs.me)}`} src={me} alt="Vladimir Radovanovich"/>
+					<p className={`${css(abs.txt)}`}>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident aut voluptate inventore praesentium ut, sunt hic cum vitae distinctio eligendi nesciunt, nostrum mollitia maxime minima. Culpa quidem quibusdam explicabo nam.
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident aut voluptate inventore praesentium ut, sunt hic cum vitae distinctio eligendi nesciunt, nostrum mollitia maxime minima. Culpa quidem quibusdam explicabo nam.
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident aut voluptate inventore praesentium ut, sunt hic cum vitae distinctio eligendi nesciunt, nostrum mollitia maxime minima. Culpa quidem quibusdam explicabo nam.

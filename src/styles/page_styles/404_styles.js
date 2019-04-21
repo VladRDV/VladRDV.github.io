@@ -9,7 +9,7 @@ import {
     black,
     std_bg,
 } from '../colors/colors';
-export const about_style = StyleSheet.create({
+export const er_styles = StyleSheet.create({
     main:{
         alignSelf: 'stretch',
         flexDirection:'row',
@@ -26,6 +26,13 @@ export const about_style = StyleSheet.create({
     container:{
         width: '60%',
         // padding: '0 5px',
+        display:'flex',
+        whiteSpace:'pre-wrap',
+        lineHeight:'2em',
+        fontSize:'2.5rem',
+        alignItems:'center',
+        justifyContent:'center',
+        textAlign:'center',
         '@media screen and (max-width: 900px)':{
             width: '90%',
         },
@@ -33,22 +40,4 @@ export const about_style = StyleSheet.create({
             width: '94%',
         },
     },
-    me:{
-        width:'25%',
-        minWidth:'220px',
-        border:' 3px solid #fff',
-        borderRadius: '70px 0',
-        margin:'5px', 
-        height:'auto', 
-        float:'right',
-        '@media screen and (max-width: 400px)':{
-            float:'none', 
-            width:'100%',
-            margin: 0, 
-        }
-    },
-    txt:{
-        // float: 'left', 
-        lineHeight:'1.5em'
-    }
 });
