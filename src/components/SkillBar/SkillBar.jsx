@@ -6,13 +6,14 @@ class SkillBar extends Component {
     constructor(props){
         super(props);
         this.state = {
-            grade: '30%',
+            grade_line_width: '1%',
             grade_visible: false,
         };
         this.setGrade = this.setGrade.bind(this);
     }
     setGrade(){
-        this.setState({grade: '100%', grade_visible: true});
+        const { grade } = this.props;
+        this.setState({grade_line_width: grade, grade_visible: true});
     }
     componentDidMount(){
         const { num } = this.props;
@@ -21,23 +22,23 @@ class SkillBar extends Component {
         }, 250 * num);
     }
     render(){
-        const {txt, lvl, color, num} = this.props;
-        const { grade, grade_visible } = this.state;
+        const { num, grade, color, skill } = this.props;
+        const { grade_line_width, grade_visible } = this.state;
         return (
             <li className={`${css(sbs.skill)}`}>
-                <span className={`${css(sbs.skill_txt)}`}>{txt}</span>
+                <span className={`${css(sbs.skill_txt)}`}>{skill}</span>
                 <span 
                     className={`${css(sbs.skill_txt, sbs.skill_grade)}`}
                     style={{animationDelay: `${.3 * num}s`}}
                 >
-                    {'100%'}
+                    {grade}
                 </span>
                 <span className={`${css(sbs.square, sbs.square_offset1)}`}/>
                 <span className={`${css(sbs.square, sbs.square_offset2)}`}/>
                 <span className={`${css(sbs.square, sbs.square_offset3)}`}/>
                 <span className={`${css(sbs.trapezoidBottom)}`}/>
                 <span className={`${css(sbs.trapezoidTop)}`}/>
-                <span className={`${css(sbs.filler)}`} style={{backgroundColor:'indigo',width: grade,}}/>
+                <span className={`${css(sbs.filler)}`} style={{backgroundColor: color ,width: grade_line_width}}/>
 
                 
                 {/* <span className={`${css(sbs.triangle2)}`}/> */}

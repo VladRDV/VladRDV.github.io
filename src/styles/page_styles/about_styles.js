@@ -48,6 +48,7 @@ export const about_style = StyleSheet.create({
         }
     },
     txt:{
+        whiteSpace:'pre-wrap',
         // float: 'left', 
         lineHeight:'1.5em'
     }

@@ -1,11 +1,13 @@
 import React from 'react';
 import { css } from 'aphrodite';
-import { Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Root from '../layout/Root/Root';
 import { portfolio_style as pst } from '../styles/page_styles/portfolio_style';
 import Project from '../components/Project/Project'
 import SkillBar from '../components/SkillBar/SkillBar';
-export default ({ location }) => {
+export default ({ location, data }) => {
+	console.log(data);
+	const content = data.allJson.edges[0].node
 	return (
 		<Root location={location}>
 			<main className={`${css(pst.main)} normal_font`}> 
@@ -13,16 +15,14 @@ export default ({ location }) => {
 					<div className={`${css(pst.currently_learning, pst.border)}`}>
 						<h3 className={`${css(pst.part_title)}`}>Currently learning</h3>
 						<p className={`${css(pst.upperTxtFormat)}`}>
-							{
-								`Upgrading my Django/Python skills.\nLearning Django Channels.`
-							}
+							{content.currently_learning}
 						</p>
 					</div>
 					<div className={`${css(pst.skills, pst.border)}`}>
 						<div className={`${css(pst.scrollBarHider)}`}>
 							<h3 className={`${css(pst.part_title)}`}>My skill list</h3>
 							<ul className={`${css(pst.skills_list, pst.upperTxtFormat)}`}>
-								{renderSkills()}
+								{renderSkills(content.skills.programmer_skills.set)}
 							</ul>
 						</div>
 						<div className={`${css(pst.gradient)}`}/>
@@ -30,7 +30,7 @@ export default ({ location }) => {
 					<div className={`${css(pst.projectsContainer, pst.border)}`}>
 						<h3 className={`${css(pst.projectsTitle, pst.part_title)}`}>Projects I've worked on</h3>
 						<ul className={`${css(pst.projects)}`}>
-							{renderProjects()}
+							{renderProjects(content.projects)}
 						</ul>
 					</div>
 				</div>
@@ -38,10 +38,17 @@ export default ({ location }) => {
 		</Root>
 	)
 }
-const renderSkills = () => {
+const renderSkills = (skills) => {
 	return(
-		Array.from(Array(10).keys()).map((el, ind)=>(
-			<SkillBar key={`SkillBar-${ind}`} num={ind} txt={'Gatsby'}/>
+		// Array.from(Array(10).keys()).map((el, ind)=>(
+		skills.map((el, ind)=>(		
+			<SkillBar 
+				key={`SkillBar-${ind}`} 
+				num={ind} 
+				grade={el.grade} 
+				color={el.color} 
+				skill={el.skill}
+			/>
 		))
 	);
 }
@@ -61,6 +68,45 @@ const renderProjects = () => {
 		))
 	);
 }
+export const query = graphql`
+query {
+	allJson {
+		edges {
+			node {
+				id
+				currently_learning,
+				skills{
+					human_languages{
+						category_name,
+						set{
+							skill,
+							grade
+						}
+					},
+					programmer_skills{
+						category_name,
+						set{
+							skill,
+							grade,
+							color
+						}
+					},
+				},
+				
+				projects{
+					title,
+					href,
+					desc,
+					other_contributors{
+						name, 
+						href
+					}
+				}
+			}
+		}
+	}
+}
+`
 
 // {
 //   allJson {

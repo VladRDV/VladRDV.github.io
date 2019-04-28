@@ -1,14 +1,17 @@
 [{
-    "currently_learning":"Upgrading my Python and Django skills, also learning GraphQL(Django implementation)",
-    "skills":[
-        {
+    "currently_learning":"Upgrading my Django/Python skills.\nLearning Django Channels.",
+    "skills":{
+        "programmer_skills":{
             "category_name":"programmer_skills",
             "set":[
                 {"skill":"JavaScript", "grade":"90%", "color":"#ff0"},
-                {"skill":"React", "grade":"90%"}
+                {"skill":"React", "grade":"50%", "color":"red"},
+                {"skill":"Python", "grade":"80%", "color":"skyblue"},
+                {"skill":"Django", "grade":"50%", "color":"green"}
+
             ]
         },
-        {
+        "human_languages":{
             "category_name":"human_languages",
             "set":[
                 {"skill":"Russian", "grade":"native"},
@@ -18,5 +21,16 @@
             ]
         }
 
+    },
+    "projects":[
+        {
+            "title":"Poslonaut website",
+            "href":"",
+            "desc":"Job searching website",
+            "other_contributors":[
+                {"name":"Milan Šarić", "href":"#"}, 
+                {"name":"Pavle Popović", "href":"#"}
+            ]
+        }
     ]
 }]
