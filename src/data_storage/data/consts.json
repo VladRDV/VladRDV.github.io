@@ -57,20 +57,7 @@
                     "desc":"",
                     "grade":"70%",
                     "color":"#bd2c00"
-                },
-                {
-                    "skill":"Python",
-                    "desc":"Confident with jsx syntax,Redux & state management in general",
-                    "grade":"80%",
-                    "color":"#306998"
-                },
-                {
-                    "skill":"Django",
-                    "desc":"Confident with basic usage, database communication, REST Framework",
-                    "grade":"50%",
-                    "color":"green"
                 }
-
             ]
         },
         "human_languages":{
@@ -90,11 +77,6 @@
                     "lang":"English", 
                     "grade":"Fluent",
                     "color":"skyblue"
-                },
-                {
-                    "lang":"Spanish", 
-                    "grade":"Beginner",
-                    "color":"yellow"
                 }
             ]
         }

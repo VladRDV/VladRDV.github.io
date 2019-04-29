@@ -10,15 +10,23 @@ class Root extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
-			showTerminal: true,
+			// showTerminal: true,
 		}
 		this.restrictShowup = this.restrictShowup.bind(this);
+		this.defineShowupPermission = this.defineShowupPermission.bind(this);
 	}
 	restrictShowup(){
-		// alert('BOOOOOM!!!');
 		this.setState({
 			showTerminal: false,
 		});
+	}
+	defineShowupPermission(){
+		const {children, location} = this.props;
+		if(location.state !== null){
+			return  !location.state.terminalNoShow 
+		}else{
+			return true;
+		}
 	}
 	render(){
 		const {children, location} = this.props;
@@ -27,7 +35,7 @@ class Root extends Component {
 			<NavBar location={location}/>
 			{location.pathname === '/' && <Bg/>}
 			{children}
-			{((location.pathname === '/') && this.state.showTerminal) && <Terminal restrictShowup={this.restrictShowup} location={location}/>}
+			{((location.pathname === '/') && this.defineShowupPermission()) && <Terminal restrictShowup={this.restrictShowup} location={location}/>}
 			{/* <UpBtn location={location}/> */}
 		</div>
 		)

@@ -8,6 +8,7 @@ class SkillBar extends Component {
         this.state = {
             grade_line_width: '1%',
             grade_visible: false,
+            timeout_id:'',
         };
         this.setGrade = this.setGrade.bind(this);
     }
@@ -15,11 +16,15 @@ class SkillBar extends Component {
         const { grade } = this.props;
         this.setState({grade_line_width: grade, grade_visible: true});
     }
-    componentDidMount(){
+    async componentDidMount(){
         const { num } = this.props;
-        setTimeout(() => {
+        const timeout_id = setTimeout(() => {
             this.setGrade();
         }, 250 * num);
+        await this.setState({timeout_id})
+    }
+    componentWillUnmount(){
+        clearTimeout(this.state.timeout_id);
     }
     render(){
         const { num, grade, color, skill } = this.props;

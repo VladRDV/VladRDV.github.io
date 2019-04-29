@@ -32,7 +32,7 @@ export default ({ location }) => {
 				>
 					GitLab
 				</a> */}
-				<a  
+				{/* <a  
 					className={`${css(cs.contactLink, cs.border)}`} 
 					target='_blank'
 					rel="noopener noreferrer" 
@@ -71,18 +71,17 @@ export default ({ location }) => {
 					href='https://www.linkedin.com/in/vladimir-radovanovich-6a0313123/'
 				>
 					Skype
-				</a>
+				</a> */}
 				<a  
 					className={`${css(cs.contactLink, cs.border)}`} 
-					target='_blank'
 					rel="noopener noreferrer" 
-					href='https://www.linkedin.com/in/vladimir-radovanovich-6a0313123/'
+					href='skype:live:bdbe9e31ce6eb136?chat'
 				>
 					Skype
-				</a>
+				</a> 
 				<div className={`${css(cs.emails, cs.border)}`}>
-					<a href="#" className={`${css(cs.email)}`}>vlad.radovanovich@gmail.com</a>
-					<a href="#" className={`${css(cs.email)}`}>v.radovanovich@yahoo.com</a>
+					<a href="mailto:vlad.radovanovich@gmail.com" className={`${css(cs.email)}`}>vlad.radovanovich@gmail.com</a>
+					<a href="mailto:v.radovanovich@yahoo.com" className={`${css(cs.email)}`}>v.radovanovich@yahoo.com</a>
 				</div>
 			</div>
 		</main>

@@ -51,7 +51,7 @@ class Navigation extends Component {
 		return (
 		<Fragment>
 			<nav className={`${this.defineNavStyles()}`}>
-				<Link to={Routes.home} className={`normal_font ${css(...home)}`}>Home</Link>
+				<Link to={Routes.home} state={{terminalNoShow:true}} className={`normal_font ${css(...home)}`}>Home</Link>
 				<Link to={Routes.portfolio} className={`normal_font ${css(...portfolio)}`}>Portfolio</Link>
 				<Link to={Routes.blog} className={`normal_font ${css(...blog)}`}>Blog</Link>
 				<Link to={Routes.about} className={`normal_font ${css(...about)}`}>About</Link>
@@ -59,7 +59,7 @@ class Navigation extends Component {
 			</nav>
 			<nav className={`${this.defineMobileNavStyles()}`}>
 				<div className={`${this.defineMenuStyles()}`}>
-					<Link onClick={()=>this.linkNavToggle(Routes.home)} to={Routes.home} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Home</Link>
+					<Link onClick={()=>this.linkNavToggle(Routes.home)} to={Routes.home} state={{terminalNoShow:true}} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Home</Link>
 					<Link onClick={()=>this.linkNavToggle(Routes.portfolio)} to={Routes.portfolio} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Portfolio</Link>
 					<Link onClick={()=>this.linkNavToggle(Routes.blog)} to={Routes.blog} className={`normal_font ${css(ns.mobileMenuBtn)}`}>Blog</Link>
 					<Link onClick={()=>this.linkNavToggle(Routes.about)} to={Routes.about} className={`normal_font ${css(ns.mobileMenuBtn)}`}>About</Link>
