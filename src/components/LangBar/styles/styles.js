@@ -8,8 +8,8 @@ import {
     // read_back,
     form_back,
 } from '../../../styles/colors/colors';
-export const skillbar_styles = StyleSheet.create({
-    skill:{
+export const langbar_styles = StyleSheet.create({
+    lang:{
         backgroundColor: form_back,
         position:'relative',
         height: '24px',
@@ -26,23 +26,23 @@ export const skillbar_styles = StyleSheet.create({
         // maxWidth:'calc(100% - 19px)',
         borderRadiusTopRight:'150px',
     },
-    skill_txt:{lineHeight:'1rem', verticalAlign:'middle',zIndex: 100},
-    skill_txt_bg:{padding:'0 5px',minWidth:'22%',backgroundColor:'rgba(0,0,0,.14)', height:'100%', alignItems:'center', display:'flex'},
-    skill_grade:{
-        color: trns,
-        animationFillMode: 'forwards',
+    lang_txt:{lineHeight:'1rem', verticalAlign:'middle',zIndex: 100},
+    lang_txt_bg:{padding:'0 5px',minWidth:'22%',backgroundColor:'rgba(0,0,0,.14)', height:'100%', alignItems:'center', display:'flex'},
+    // lang_grade:{
+        // color: trns,
+        // animationFillMode: 'forwards',
         // animation: 'forwards',
-        animationName:[{
-            '0%': {
-                color: form_back,
-            },
-            '100%': {
-                color: white,
-            },
-        }],
-        willChange: 'color',
-        animationDuration: '2s',
-    },
+        // animationName:[{
+        //     '0%': {
+        //         color: form_back,
+        //     },
+        //     '100%': {
+        //         color: white,
+        //     },
+        // }],
+        // willChange: 'color',
+        // animationDuration: '2s',
+    // },
     square:{
         position:'absolute',
         zIndex:'150',

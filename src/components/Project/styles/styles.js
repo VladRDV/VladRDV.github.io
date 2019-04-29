@@ -36,6 +36,7 @@ export const project_styles = StyleSheet.create({
         flex: .2,
         justifyContent:'flex-end',
         paddingRight: 0,
+        minHeight:'37px',
     },
     alignCenter:{
         display:'flex',

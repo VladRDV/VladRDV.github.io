@@ -20,14 +20,16 @@ const Project = ({title, href, desc, contr}) => {
             </p>
             <hr className={`${css(ps.divider, ps.divider_3)}`}/>
             <div className={`${css(ps.alignCenter,ps.bottom)}`}>
-                <a
-                    href={href}
-                    className={`${css(ps.alignCenter,ps.to_project)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {`Visit`}
-                </a>
+                { href !== '' &&
+                    <a
+                        href={href}
+                        className={`${css(ps.alignCenter,ps.to_project)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {`Visit`}
+                    </a>
+                }
             </div>
         </li>
     );

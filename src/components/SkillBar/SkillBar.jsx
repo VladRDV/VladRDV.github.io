@@ -26,7 +26,7 @@ class SkillBar extends Component {
         const { grade_line_width, grade_visible } = this.state;
         return (
             <li className={`${css(sbs.skill)}`}>
-                <span className={`${css(sbs.skill_txt)}`}>{skill}</span>
+                <span className={`${css(sbs.skill_txt, sbs.skill_txt_bg)}`}>{skill}</span>
                 <span 
                     className={`${css(sbs.skill_txt, sbs.skill_grade)}`}
                     style={{animationDelay: `${.3 * num}s`}}

@@ -5,9 +5,11 @@ import Root from '../layout/Root/Root';
 import { portfolio_style as pst } from '../styles/page_styles/portfolio_style';
 import Project from '../components/Project/Project'
 import SkillBar from '../components/SkillBar/SkillBar';
+import LangBar from '../components/LangBar/LangBar';
+
 export default ({ location, data }) => {
 	console.log(data);
-	const content = data.allJson.edges[0].node
+	const content = data.allJson.edges[0].node;
 	return (
 		<Root location={location}>
 			<main className={`${css(pst.main)} normal_font`}> 
@@ -23,6 +25,10 @@ export default ({ location, data }) => {
 							<h3 className={`${css(pst.part_title)}`}>My skill list</h3>
 							<ul className={`${css(pst.skills_list, pst.upperTxtFormat)}`}>
 								{renderSkills(content.skills.programmer_skills.set)}
+							</ul>
+							<h3 className={`${css(pst.part_title)}`}>Natural languages</h3>
+							<ul className={`${css(pst.skills_list, pst.upperTxtFormat)}`}>
+								{renderLangs(content.skills.human_languages.set)}
 							</ul>
 						</div>
 						<div className={`${css(pst.gradient)}`}/>
@@ -40,7 +46,6 @@ export default ({ location, data }) => {
 }
 const renderSkills = (skills) => {
 	return(
-		// Array.from(Array(10).keys()).map((el, ind)=>(
 		skills.map((el, ind)=>(		
 			<SkillBar 
 				key={`SkillBar-${ind}`} 
@@ -52,17 +57,26 @@ const renderSkills = (skills) => {
 		))
 	);
 }
-const renderProjects = () => {
+const renderLangs = (langs) => {
 	return(
-		Array.from(Array(9).keys()).map((el, ind)=>(
+		langs.map((el, ind)=>(		
+			<LangBar 
+				key={`SkillBar-${ind}`} 
+				grade={el.grade} 
+				color={el.color} 
+				lang={el.lang}
+			/>
+		))
+	);
+}
+const renderProjects = (projects) => {
+	return(
+		projects.map((el, ind)=>(
 			<Project 
-				title={'Poslonaut website'}
-				contr={[
-					{name:'Milan Šarić', href:'#'}, 
-					{name:'Pavle Popović', href:'#'},
-				]}
-				desc={'Job searching website'}
-				href={'#'}
+				title={el.title}
+				contr={el.other_contributors}
+				desc={el.desc}
+				href={el.href}
 				key={`Project-${ind}`}
 			/>		
 		))
@@ -79,8 +93,9 @@ query {
 					human_languages{
 						category_name,
 						set{
-							skill,
-							grade
+							lang,
+							grade,
+							color
 						}
 					},
 					programmer_skills{
