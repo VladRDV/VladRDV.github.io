@@ -21,9 +21,13 @@ class Root extends Component {
 		});
 	}
 	defineShowupPermission(){
-		const {children, location} = this.props;
-		if(location.state !== null){
-			return  !location.state.terminalNoShow 
+		const { location } = this.props;
+		if(typeof location !== 'undefined'){
+			if(typeof location.state !== 'undefined' && location.state !== null){
+				return  !location.state.terminalNoShow 
+			}else{
+				return true;
+			}
 		}else{
 			return true;
 		}
