@@ -9,6 +9,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "deploy:github": "npm run build && node ./scripts/deploy-github",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
@@ -42,6 +43,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "redux-devtools-extension": "^2.13.8"
   }
 }
